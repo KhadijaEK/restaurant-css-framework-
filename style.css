@@ -1,0 +1,76 @@
+
+/* Common style containers & panels */
+
+    .container{
+        padding-top: 50px;
+
+    }
+.panel-default{
+    margin-top: 3em;
+}
+
+.panel-body{
+    background-color: lightpink;
+    height: 20em;
+}
+
+.row{padding-top: 150px;}
+
+/* Navbar */
+
+/* Logo */
+
+/* Gallery menu items */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.img{
+    width: 50%;
+}
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
+/* Menu list & Badges */
+
+.badge{
+    padding: 10px 20px;
+}
+.green{
+    background-color: yellowgreen;
+}
+
+.coffee{
+    background: url(/images/menu/coffee_corner_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.eat{
+    background: url(/images/menu/salads_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.treats{
+    background: url(/images/menu/dessert_cookies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

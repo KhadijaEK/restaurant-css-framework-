@@ -8,7 +8,8 @@
     <meta name="description" content="Exercice Restaurant in Bootstrap - This is Fresh-oh! Salad-bar & coffee-house where you can
     relax and enjoy your meal with our delicious home-made brew coffees & fresh juices">
     <meta name="author" content="Student at Becode.org">
-
+     <!-- Font awesome icon link -->
+     <script src="https://kit.fontawesome.com/1c8661e552.js" crossorigin="anonymous"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -19,42 +20,50 @@
         <nav class="navbar navbar-custom navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/index.html"><img src="" alt="Logo Fresh-oh!" width="20%"></a>
+                    <a class="navbar-brand" href="/index.html"><img src="" alt="Logo Fresh-oh!"></a>
                 </div>
                     <ul class="nav navbar-nav navbar-center">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#"><Menu></Menu></a></li>
-                        <li><a href="#">Our culture</a></li>
-                        <li><a href="#">Find your Fresh-oh!</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="menu.html"><span class="fab fa-elementor"></span>  Menu</a></li>
+                        <li><a href="#">Our Culture</a></li>
+                        <li><a href="locateus.html">Find your Fresh-oh!</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
-                <form class="form-inline my-2 my-lg-0 ml-auto navbar-right">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
-                </form>
             </div>
         </nav>
-        <!--/.Navbar-->
+    <!--/.Navbar-->
     </head>
 
     <body>
-        <!--Jumbotron-->
-        <div class="container">
-            <div class="jumbotron card card-image" style="background-image: url(images/welcome/welcomeback_banner.jpg);">
-                <div class="text-white text-center py-5 px-4">
-                  <div>
-                    <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>We're so happy to see you again!</strong></h2>
-                        <figure><img src="" alt="Logo Fresh-oh!"></figure>
-                    <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                      optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-                    </p>
-                    <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
-                  </div>
+        <!-- Jumbotron -->
+        <div class="jumbotron card-image text-center">
+                
+            <div class="panel panel-default">
+                <div class="panel-heading text-white rgba-stylish-strong py-5 px-4">
+                    <h1 class="card-title h1">We're so happy to see you again!</h1>
+                        <img src="" alt="Logo Fresh-oh!">
+                        <p class="lead mx-5 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos maiores officia commodi tempora.</p>
+                        <hr class="my-4">
+                        <div class="pt-2">
+                            <button type="button" class="btn btn-blue waves-effect">MENU<span class="fab fa-elementor"></span></button>
+                            <button type="button" class="btn btn-blue waves-effect">MAKE RESERVATION<span class="fas fa-check"></span></button>
+                        </div>
                 </div>
-              </div>
-          </div>
+                <!--panel 2: social icon-->
+                <div class="panel-footer">
+                    <h3>Follow us</h3>
+                        <!--Facebook-->
+                        <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <!--Twitter-->
+                        <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="https://twitter.com/explore"><i class="fab fa-twitter fa-2x"></i></a>
+                        <!--Instagram-->
+                        <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
 
-        <!--/.Jumbotron-->
+                </div>
         
+        </div>
+  <!-- Jumbotron -->
+    
+
     </body>
 </html>
