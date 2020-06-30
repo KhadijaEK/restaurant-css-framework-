@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <meta name="description" content="Exercice Restaurant in Bootstrap - This is Fresh-oh! Salad-bar & Coffee-house's team and philosophy">
+            <meta name="author" content="Student at Becode.org">
+            <!-- Font awesome icon link -->
+            <script src="https://kit.fontawesome.com/1c8661e552.js" crossorigin="anonymous"></script>
+            <!-- Bootstrap core CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+
+            <!-- Custom styles for this template -->
+            <link href="style.css" rel="stylesheet">
+
+         <!--Navbar--> 
+            <!-- navbar-fixed-top-->
+            <nav class="navbar navbar-inverse">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Fresh-oh!</a>
+                </div>
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <class class="nav navbar-nav">
+                                <li ><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="culture.html">Culture</a></li>
+                                <li><a href="locateus.html">Find your Fresh-oh!</a></li>
+                         <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+            <!--/ navbar-fixed-top-->
+    <!--/.Navbar-->
+    </head>
+    <body id="contactpage">
+            <!--Section: Contact v.2-->
+        
+            <div class="wrapper">
+                <section class="mb-4">
+                    <!--Section heading-->
+                    
+                    <div class="row">
+                        <h1 class="h1-responsive">Contact us</h1>
+                        <!--Section description-->
+    
+                        <p class="text-left w-responsive mx-2 mb-5">Do you have any questions?
+                            <br> Please do not hesitate to contact us directly. Our team will come back to you within
+                            a matter of hours to help you.</p>
+
+                        <!--Grid column-->
+                        <div class="col-xs-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <!--Grid row-->
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" id="name" name="name" class="form-control form-control-sm">
+                                            <label for="name" class="label">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" id="email" name="email" class="form-control form-control-sm">
+                                            <label for="email" class="label">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="custom-file">
+                                            <select class="custom-select custom-select-lg">
+                                                <option selected>Select a subject</option>
+                                                <option value="1">General information</option>
+                                                <option value="2">Request an appointment</option>
+                                                <option value="3">Apply for a job</option>
+                                                <option value="3">Loyalty card</option>
+                                                <option value="3">Other</option>
+                                            </select>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-xs-12">
+
+                                        <div class="xs-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control sm-textarea"></textarea>
+                                            <label for="message" class="label">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                                </div>
+                                <div class="status"></div>
+
+                                <!--Grid row-->
+                    
+                            </form> 
+                        </div>
+                    </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+            </div>  
+        
+         <!-- Footer -->
+    <footer class="page-footer font-small">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-left text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-sm-5">
+      
+              <!-- Content -->
+            
+              <img id="footer-img" src="/images/logo/cropped-becode-logo-seal.png" alt="Logo Becode">
+                <ul class="list-unstyled">
+                  <h4>Central office</h4>
+                  <li><i class="fas fa-map-marker-alt"></i>1252 - North Bend River Road - London</li>
+                  <li><i class="fas footer fa-phone"></i>+44-606-877-3753</li>
+                  <li><i class="fas footer fa-envelope"></i>contact@freshohlondon.com</li>
+                  <li><i class="fas footer fa-clock"></i>Opening hours : Mon - Fri from 9:30am to 8pm</li>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-sm-4 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase text-left">Legal info</h5>
+              <ul class="list-unstyled text-left">
+                <li>
+                  <a href="#!">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Terms of use</a>
+                </li>
+              </ul>
+              <!-- Copyright -->
+            <div class="footer-copyright text-left"> 
+              <ul class="list-unstyled text-left">
+                <li>Exercice (Swartz 1.3)</li> 
+                <li>© 2020 Copyright: Becode.org</li>
+              </ul>
+            </div>
+        <!-- Copyright -->
+              <!-- Footer Links -->
+      
+            </div>
+  
+          
+            <!-- Grid column -->
+            <!-- Grid column middle-->
+            <div class="col-sm-3 mb-md-0 mb-3">
+      
+              <!-- Search form -->
+            <div class="md-form active-cyan active-cyan-2">
+              <h5 class="h3-responsive text-uppercase text-left">Site search</h5>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </div>
+  
+    <!-- Search form -->
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+      </footer>
+      <!--/.Footer -->
+  
+    </body>
+</html>

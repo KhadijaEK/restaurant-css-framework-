@@ -15,24 +15,38 @@
         <!-- Custom styles for this template -->
         <link href="style.css" rel="stylesheet">
 
-        <!--Navbar--> 
-        <nav class="navbar navbar-custom">
-            <div class="container-fluid">
+         <!--Navbar--> 
+            <!-- navbar-fixed-top-->
+            <nav class="navbar navbar-inverse">
+                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#index.html"><img src="images/logo/Freshoh_logo_transparent.png" alt="Logo Fresh-oh!"></a>
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Fresh-oh!</a>
                 </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="culture.html">Culture</a></li>
-                        <li><a href="locateus.html">Find your Fresh-oh!</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                         <li class="active"><a href="culture.html">Culture</a></li>
+                                <li><a href="locateus.html">Find your Fresh-oh!</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
                     </ul>
-            </div>
-        </nav>
+                </div>
+            </nav>
+            <!--/ navbar-fixed-top-->
     <!--/.Navbar-->
     </head>
     <body id="culture">
+
+
         <!--Carousel Pictures -->
             <!--Indicators-->
             <div id="Carousel" class="carousel slide" data-interval="false">
@@ -47,7 +61,7 @@
                         <a href="#concept"><img src="images/culture/coffeebar_welcome.jpg" class="image-responsive welcome" alt="Welcome blue coffee-house"></a>
                             <div class="view">
                                 <div class="carousel-caption">
-                                    <a href="#concept"><h2>Learn more about Fresh-oh! culture</h2></a>
+                                   <h1>Learn more about Fresh-oh! culture</h1>
                                 </div>
                             </div>
                     </div>
@@ -81,6 +95,15 @@
             </div>
       
         <!--/.Carousel Pictures -->
+        <div class="panel-footer text-center">
+            <h3>Follow us</h3>
+                <!--Facebook-->
+                <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <!--Twitter-->
+                <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="https://twitter.com/explore"><i class="fab fa-twitter fa-2x"></i></a>
+                <!--Instagram-->
+                <a class="btn-floating btn-lg btn-ins" type="button" role="button" href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
             
         <!--Welcome-->    
         <div class="wrapper"> 
@@ -228,6 +251,7 @@
                   <li><i class="fas fa-map-marker-alt"></i>1252 - North Bend River Road - London</li>
                   <li><i class="fas footer fa-phone"></i>+44-606-877-3753</li>
                   <li><i class="fas footer fa-envelope"></i>contact@freshohlondon.com</li>
+                  <li><i class="fas footer fa-clock"></i>Opening Mon - Sat 9:30am to 8:00pm</li>
                 </ul>
       
             </div>
@@ -255,35 +279,25 @@
               <!-- Copyright -->
             <div class="footer-copyright text-left"> 
               <p>Exercice (Swartz 1.3)</p> 
-              <p>© 2020 Copyright: <a href="">Becode.org</a></p>
-             
+              <p>© 2020 Copyright: <a href="">Becode.org</a></p> 
             </div>
-        <!-- Copyright -->
-              <!-- Footer Links -->
-      
+            <!-- Copyright -->
+            
+            <!--/.Footer Links -->
             </div>
-
-          
             <!-- Grid column -->
             <!-- Grid column middle-->
             <div class="col-sm-3 mb-md-0 mb-3">
-      
               <!-- Search form -->
             <div class="md-form active-cyan active-cyan-2">
               <h5 class="h3-responsive text-uppercase text-left">Site search</h5>
               <input class="form-control" type="text" placeholder="Search" aria-label="Search">
             </div>
-
-    <!-- Search form -->
-            <!-- Grid column -->
-      
+            <!-- /.Search form -->
+            <!-- /.Grid column -->
           </div>
-          <!-- Grid row -->
-      
+          <!-- /.Grid row -->
         </div>
-
-        
-      
       </footer>
       <!--/.Footer -->
 
@@ -294,7 +308,7 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script>
-            $("#carousel").carousel();
+            $("#carousel").carousel();  
         </script>
     </body>
 </html>

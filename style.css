@@ -3,30 +3,25 @@
 
 /* Common */
 
-.container{
-    position: relative;
-    top: 3em;
- 
-}
 
-[class*="fa-"] {color: #605856;}
+
+[class*="fa-"] {color:#00A4D0;}
 
 
 /* Navbar & Logo */
 
-.navbar-brand > img{
-    position: relative;
-    top: -35px;
-    width: 15%;
-    }
-
-.navbar-nav > li a{
-    color: #00A4D0;
-    font-size: 1.2em;
-    padding-right: 3em;
-    padding-top: 0;
+.icon-bar{
+    color: #00A4D0 !important;
 }
 
+.navbar-brand > img{
+    width: 20%;
+    position: relative;
+    display: block;
+    float:right;
+    top: -50px;
+
+}
 
 /* Home page Jumbotron */
 
@@ -34,7 +29,7 @@
     background-color: white;  
     background-image: url(images/welcome/resto_inside_pic.jpg);
     background-size: cover;
-    height: 768px;
+    height: 750px;
 }
 
 .banner > img{
@@ -45,10 +40,7 @@
 .mx-5, .pt-3 {
     color: white;
     padding: 2em 6em 2em 6em;
-    padding-left: 6em;
-    padding-right: 6em;
-    padding-top: 2em;
-}
+}    
 
 .h1-responsive {
     padding: 1em 0em 0em 0em;
@@ -56,6 +48,9 @@
     color: white;
 }
 
+.jumbotron p{
+    padding: 1em 4em 0em 4em;
+}
 
 .jumbotron .btn{
     background-color: #00A4D0;
@@ -69,7 +64,7 @@
 }
 
 .jumbotron .btn:hover{
-    background-color: #00A4D0;
+    background-color: #E86252;
 }
 
 /* Menu Page Group-list & Badges*/
@@ -86,14 +81,14 @@
     background-color: white;
 }
 
-  
+/* Menu Page gallery */
+
 #menupage .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    margin: 5px 5px;
   }
   
-    /* Menu Gallery: create four equal columns that sits next to each other */
 #menupage .column {
     flex: 25%;
     max-width: 20%;
@@ -120,25 +115,32 @@
     margin: 0 auto;
 }
 
-
-
-#culture .wrapper{
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-    position: relative;
-   
-}
-
 .carousel-control{
     color: white;
+}
+
+.carousel-caption h2{
+    color: white;
+    text-decoration: none;
 }
  
 .item img {
     object-fit: cover;
     height: 460px !important;
     margin: 0 auto;
-  }
+}
+
+#culture .wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+}
+
+#culture .panel-footer{
+    background-color: white;
+    border: none;
+}
 
 #culture .col-xs-4{
     margin-top: 50px;
@@ -163,52 +165,123 @@
     padding: 20px;
 }
 
-#location .img-responsive{
-    width: 70%;
+#location iframe{
+    width: 100%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 34px;
 
 }
 
 #location .col-xs-4{
-    border: 1px solid #e86252 ;
+    border: 1px solid #e86252;
+    height: 150px;
   
 }
 
 /* Contact page */
 
-section {
-    background-color: lightblue;
-    position: relative;
-    top: 150px;
-    margin: 0px 60px;
-    padding: 20px;
+#contactpage .wrapper {
+    background-image: url("/images/culture/coffeebar_workingspace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+    height: 700px;
+    
 }
+
+#contactpage .mb-4 {
+    background-color: rgba(119, 119, 120, 0.8);
+    border-radius: 25px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}
+
+#contactpage .row{
+    padding-left: 70px;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+.custom-select{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 34px;
+}
+
+#contactpage p {
+    color: white;
+    padding-right: 19em;
+    padding-bottom: 2em;
+}
+
+#contactpage .btn{
+    background-color: #E86252;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 13px 55px;
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 1;
+    
+}
+
+#contactpage .btn:hover{
+    background-color: #00A4D0;
+    border: 5px solid white;
+}
+
+#contactpage .list-unstyled li{
+    color: white;
+}
+
 
 /* Footer */
 
-footer .col-sm-5, .col-sm-4, .col-sm-3{
-    background-color: #D0CCD0;
-    border:none;
-    padding-top: 10px;
-    margin-top: 10px;
+.page-footer{
+    height: 200px;
+    width: 100%;
+
 }
 
-.panel-footer{
-    background-color: white; 
-    border: none;
-    padding: 0px 0px 50px;
+footer .row{
+    background-color: #ccc;
+    padding-top: 30px;
 }
+
+.footer p{
+    position: relative;
+    bottom: 0;
+}
+
 
 #footer-img{
-    width: 20%;}
+    display: flex;
+    float: left;
+    width: 20%;
+}
 
 .list-unstyled li i{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
-.fas .footer{font-size: 12px;}
+
+#footer .fa {
+    font-size: 12px;
+
+}
 
 
 
