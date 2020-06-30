@@ -5,7 +5,7 @@
 * Period: 4 days (start on 25-06-2020)
 
 
-### **Follow this link to visit the website Github page**
+### **[Follow this link to visit the website Github page](https://khadijaek.github.io/restaurant-css-framework-/)**
 
 
 * Visit [Github BXL-Swartz-3-21](https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc) for more details on the challenge
